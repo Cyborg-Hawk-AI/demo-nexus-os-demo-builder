@@ -1,0 +1,148 @@
+{
+  "idea": {
+    "name": "Nexus-OS Demo Builder",
+    "fingerprint": "ai-life-manager-dashboard-demo-builder",
+    "pitch": "Sell personalized AI life manager dashboard demos to productivity-obsessed power users",
+    "cluster": "user-submitted",
+    "target_customer": "Solo founders, digital nomads, and high-agency individuals who want a bespoke personal OS dashboard \u2014 not a real scalable segment with validated willingness to pay",
+    "core_features": [
+      "Hardcoded personal data dashboard (single user, not multi-tenant)",
+      "Zustand state store with mock seed data",
+      "Agentic AI terminal with canned responses",
+      "Bento-grid UI with Framer Motion animations",
+      "Habit heatmaps and project trackers"
+    ],
+    "pricing_model": "N/A \u2014 no pricing model exists in the submission",
+    "price_point": "Unknown \u2014 no monetization concept submitted",
+    "gtm_channel": "None identified \u2014 this is a personal tool prompt, not a go-to-market strategy",
+    "competitive_landscape": "Notion, Obsidian, Sunsama, Akiflow, and dozens of personal productivity dashboards already exist with real user bases and recurring revenue",
+    "unfair_advantage": "None identified \u2014 the aesthetic choices (cyberpunk, dark mode, Framer Motion) are table stakes in 2025 and do not constitute a moat",
+    "mvp_estimate": "Next.js + Zustand + Framer Motion + Recharts; 1-2 weeks to build the demo as described, but it is a demo, not a product",
+    "agentic_automation": "Not applicable \u2014 there is no recurring business operation to automate. The submission describes a one-time UI build with mock data, not a service with customers, billing, or support loops.",
+    "origin_story": "The user submitted a detailed engineering prompt \u2014 not a business idea \u2014 asking for a React/Next.js personal dashboard built around one person's life data (relocation to Brazil, specific pets, specific projects). The web evidence gathered is entirely about frontend development best practices and has zero signal about market demand for this concept as a product. There is no pain point articulated beyond 'I want a cool personal dashboard.' No Reddit posts show people paying for bespoke life manager UIs, and the evidence does not support a recurring revenue opportunity.",
+    "automation_playbook": "There is no automation playbook because there is no business. If this were pivoted into a 'build your own personal OS dashboard' SaaS, it would require onboarding flows, data integrations (calendar, finance, health APIs), multi-tenant architecture, and customer support \u2014 none of which are trivial. Estimated owner hours per week in current form: 0 (it's a static demo) but also $0 revenue.",
+    "maintenance_hours_per_week": 0,
+    "keywords": [
+      "personal dashboard app",
+      "AI life manager",
+      "productivity OS"
+    ],
+    "supporting_urls": [
+      "https://www.reddit.com/r/vibecoding/comments/1n7tc6u/building_full_frontend_with_mocks_on_vercel_v0/"
+    ],
+    "weighted_total": 14,
+    "checklist": {
+      "ten_plus_posts_same_pain": false,
+      "paying_for_inferior_solution": false,
+      "reachable_channel": false,
+      "mvp_under_4_weeks": true,
+      "price_point_high_enough": false,
+      "hair_on_fire": false,
+      "can_presell": false,
+      "fewer_than_3_competitors": false,
+      "low_maintenance_ops": false
+    },
+    "checklist_passed": 1,
+    "momentum": "unknown",
+    "rising_queries": [],
+    "gate_result": "focused mode: built on request (verdict: avoid)"
+  },
+  "pain_points": [
+    {
+      "title": "Full text of \"Personal Computer World\"",
+      "url": "https://archive.org/stream/PersonalComputerWorldMagazine/PCW%20199604%20April%20Created%20From%20PCW%20Cover%20CD_djvu.txt",
+      "snippet": "",
+      "source": "reddit"
+    },
+    {
+      "title": "I already have the backend done, what is your best approach when it comes to building a ui for already working backend.",
+      "url": "https://www.reddit.com/r/Frontend/comments/1edh73q/i_already_have_the_backend_done_what_is_your_best/",
+      "snippet": "before coding your UI.\nMock it.\nMock the whole user experience.\nTo mock it use pen and paper.\nDo not try to reinvent the wheel, look for references of similar features and copy them\nafter you mock it, sketch what pages you need, your url structure\ncode a static version of each page, page by page, and then add interactivity (query your actual backend) also page by page\nbuild and deploy often while you're building so you find errors quickly\n`More is less`\n...\nOther then that...\nIf you don't know any design, my suggestion is focus on the font stack / sizing of things.\nStart with headings H1-H6.\nA",
+      "source": "reddit"
+    },
+    {
+      "title": "After building 10+ projects with AI, here's how to actually design great looking UIs fast",
+      "url": "https://www.reddit.com/r/PromptEngineering/comments/1mf7pnx/after_building_10_projects_with_ai_heres_how_to/",
+      "snippet": "1. **Initial Draft**: I allow AI to create a rough version first.\n2. **Refinement**: I then have it enhance and refine each page.\n3. **Detailing**: Finally, I guide it on minute details, focusing on one small aspect at a time.\nI refer to this technique as the \"Zoom-In Method.\"\n...\nIn this stage, I provide the AI with comprehensive context about the application.\nContext is crucial; the more detailed and specific I am, the better the rough draft turns out.\nI might even compile my entire vision into a Markdown document of about 100\u2013150 lines, covering every feature, page, and detail.\nUsing anothe",
+      "source": "reddit"
+    },
+    {
+      "title": "How can I be a Front-end architect?",
+      "url": "https://www.reddit.com/r/Frontend/comments/zwdlsg/how_can_i_be_a_frontend_architect/",
+      "snippet": "If you\u2019d like to become one, you will need experience with different kinds of projects.\nNot necessarily programming experience but more with high level decision making so that you understand the impact of the choices being made.\n...\nI make high level decision about how to design large systems for clients.\n...\nMy work not only covers the front end but also the back end, like designing the API\u2019s, working with the designers to automate theming into css modules through figma or talking to the clients about what\u2019s possible.\n...\nI'd say the skills you most need for this are:\nexperience with multiple",
+      "source": "reddit"
+    },
+    {
+      "title": "Update: State of Software Development with LLMs - v2",
+      "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1i54vjm/update_state_of_software_development_with_llms_v2/",
+      "snippet": "- **Objective**: Gather all high-level requirements for your applications.\n- **Method**: Use a prompt to clarify context, purpose, and business area while organizing requirements into meaningful, categorized sub-domains.\n...\n2. **Requirements Phase**\n- **Objective**: Compile a comprehensive list of detailed requirements for your application.\n...\n- **Objective**: Establish a coherent Domain-Driven Design (DDD) model.\n...\n4. **Development Phase 1**\n- **Objective**: Ensure consistency and high-quality code for both backend and frontend components.\n- **Steps**:\n- Begin with Test-Driven Development",
+      "source": "reddit"
+    },
+    {
+      "title": "The Agentic Frontend",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1op8tgo/the_agentic_frontend/",
+      "snippet": "",
+      "source": "reddit"
+    },
+    {
+      "title": "Confused between front end and back end.",
+      "url": "https://www.reddit.com/r/Frontend/comments/t2novt/confused_between_front_end_and_back_end/",
+      "snippet": "Overly simplified, backend developers code the APIs that talk to the databases and bring the data to the frontend.\nFrontend developers take that data, and represent it visually through a phone app, web app, etc...\nYou may do a little of UI and UX, but don't conflate the two.\n...\nThe data is then handed off to UI Designers, these are the people that work in Photoshop, Adobe XD, Figma, etc.. and provide visualizations for the website (in this example).\nThey make the website look beautiful and engaging.\nThose mockups are then provided to Frontend developers.\n\"Make our website look like this\".\n...",
+      "source": "reddit"
+    },
+    {
+      "title": "How have you seen a software architect work with a UI designer to create a product from scratch?",
+      "url": "https://www.reddit.com/r/ProductManagement/comments/wcz14t/how_have_you_seen_a_software_architect_work_with/",
+      "snippet": "The UI designer should be the expert on the user experience design, and product should be communicating the customer problems clearly so the designer can create mock-ups and wireframes effectively.\nThe architect should be the expert on the tech stack and data flows, and product should be communicating customer needs so they can create the right systems design.\n...\nWhat the designer comes up with for the user flow and UI has everything to do with the data models - which is the architect's responsibility.\n...\nTo be more explicit.\nIf you\u2019ve identified the problem then as a team, you, the UI desig",
+      "source": "reddit"
+    },
+    {
+      "title": "I already have the backend done, what is your best approach when it comes to building a ui for already working backend.",
+      "url": "https://www.reddit.com/r/Frontend/comments/1edh73q/i_already_have_the_backend_done_what_is_your_best/",
+      "snippet": "before coding your UI.\nMock it.\nMock the whole user experience.\nTo mock it use pen and paper.\nDo not try to reinvent the wheel, look for references of similar features and copy them\nafter you mock it, sketch what pages you need, your url structure\ncode a static version of each page, page by page, and then add interactivity (query your actual backend) also page by page\nbuild and deploy often while you're building so you find errors quickly\n`More is less`\n...\nOther then that...\nIf you don't know any design, my suggestion is focus on the font stack / sizing of things.\nStart with headings H1-H6.\nA",
+      "source": "reddit"
+    },
+    {
+      "title": "Staff/Principal Frontend at >1000+ companies - what do you do?",
+      "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1jn7sva/staffprincipal_frontend_at_1000_companies_what_do/",
+      "snippet": "",
+      "source": "reddit"
+    },
+    {
+      "title": "Building full frontend (with mocks) on Vercel V0 first - smart or tech debt trap?",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1n7tc6u/building_full_frontend_with_mocks_on_vercel_v0/",
+      "snippet": "I'm currently developing a web application using Next.js (RSC) and TypeScript on Vercel.\nMy strategy is to initially focus on creating the entire user interface and experience without any backend, authentication, or APIs\u2014just using mocked data.\nThis allows me to refine the user flows and overall design.\nOnce I'm satisfied with the UX, I'll start integrating backend functionality, authentication, and real APIs gradually, addressing each component as needed.\n...\nWhen assembling furniture, it's important to avoid fully tightening the screws until all the pieces are in place, right?\nThis principle",
+      "source": "reddit"
+    },
+    {
+      "title": "The frontend/design skill gap is real. Anyone else using AI as their crutch?",
+      "url": "https://www.reddit.com/r/osinttools/comments/1s66kvo/the_frontenddesign_skill_gap_is_real_anyone_else/",
+      "snippet": "",
+      "source": "reddit"
+    },
+    {
+      "title": "I'm a frontend dev and our designer makes my life difficult. Am I wrong?",
+      "url": "https://www.reddit.com/r/UI_Design/comments/aov2wr/im_a_frontend_dev_and_our_designer_makes_my_life/",
+      "snippet": "",
+      "source": "reddit"
+    },
+    {
+      "title": "How do you deal w/ the complexity of frontend development?",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1qo9sy3/how_do_you_deal_w_the_complexity_of_frontend/",
+      "snippet": "",
+      "source": "reddit"
+    },
+    {
+      "title": "Developing a user interface in parallel with the back-end functionality",
+      "url": "https://www.reddit.com/r/agile/comments/y2dzus/developing_a_user_interface_in_parallel_with_the/",
+      "snippet": "",
+      "source": "reddit"
+    },
+    {
+      "title": "Architectural Dilemma: Who Should Handle UI Changes \u2013 Backend or Frontend?",
+      "url": "https://www.reddit.com/r/softwarearchitecture/comments/1f8s741/architectural_dilemma_who_should_handle_ui/",
+      "snippet": "That being said you have several options that would make both sides satisfied.\nYou place a component in between the backend services and the frontend that will aggregate and/map models from the backend.\nYou could grab something like graphql or just write the endpoints manually.\nEither that or use a cms to store view related data that can map to ui element like tabs.",
+      "source": "reddit"
+    }
+  ]
+}
